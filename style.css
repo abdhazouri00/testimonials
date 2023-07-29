@@ -52,6 +52,7 @@
 
     padding: 2.4rem 1.5rem;
     background-color: hsl(217, 19%, 35%);
+    height: 96%;
 }
 
 .dan{
@@ -89,9 +90,9 @@
 
 svg{
 
-    position:fixed;
+    position:relative;
     z-index: 3; 
-    margin-left: 25vw;
+    margin-left: 12.5vw;
     opacity: 50%;
 }
 
@@ -100,9 +101,31 @@ svg{
     
     svg{
 
-        position:fixed;
+        position:relative;
         z-index: 3; 
-        margin-left: 45vw;
+        margin-left: 32.5vw;
+        opacity: 40%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+    svg{
+
+        position:relative;
+        z-index: 3; 
+        margin-left: 25vw;
+        opacity: 40%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    
+    svg{
+
+        position:relative;
+        z-index: 3; 
+        margin-left: 7.5vw;
         opacity: 40%;
     }
 }
